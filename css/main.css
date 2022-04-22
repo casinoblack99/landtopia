@@ -129,6 +129,7 @@ header{
 .owl-carousel .thumbnail .caption .flex-text {
   flex-grow: 1;
 }
+
 caption{
   background-color: rgb(166, 167, 168) !important;
   height: 60vh !important;
@@ -307,6 +308,9 @@ caption{
 }
 input[type= email]{
     padding-left: 30px;
+}
+.top{
+    margin-top: 5%;
 }
 footer{
     background-color: #0C0655 !important;
@@ -644,7 +648,7 @@ span{
           .owl-dots {
             text-align: center;
             padding-top: 30px;
-            margin: 10px;
+         
           }
           .owl-dots button.owl-dot {
             width: 15px;
@@ -652,7 +656,7 @@ span{
             border-radius: 50%;
             display: inline-block;
             background: #ccc;
-            margin: 0 3px;
+          
           }
           .owl-dots button.owl-dot.active {
             background-color: #000;
@@ -664,13 +668,9 @@ span{
               position: absolute;
               top: 50%;
               transform: translateY(-50%);
-              /* background: rgba(255, 255, 255, 0.38) !important; */
+              background: rgba(255, 255, 255, 0.38) !important;
           }
-          /* span {
-              font-size: 70px;    
-              position: relative;
-              top: -5px;
-          } */
+         
           .owl-nav button:focus {
               outline: none;
           }
