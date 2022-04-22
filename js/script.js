@@ -9,7 +9,7 @@ jQuery(document).ready(function ($) {
 		items: 3,
 		loop: true,
 		center: false,
-		rewind: true,
+		rewind: false,
 		mouseDrag: true,
 		touchDrag: true,
 		pullDrag: true,
@@ -74,7 +74,7 @@ jQuery(document).ready(function ($) {
 });
 jQuery("#carousel").owlCarousel({
 	autoplay: true,
-	rewind: true, /* use rewind if you don't want loop */
+	rewind: false, /* use rewind if you don't want loop */
 	margin: 20,
 	 /*
 	animateOut: 'fadeOut',
@@ -105,7 +105,7 @@ jQuery("#carousel").owlCarousel({
   });
   jQuery("#carousel1").owlCarousel({
 	autoplay: true,
-	rewind: true, /* use rewind if you don't want loop */
+	rewind: false, /* use rewind if you don't want loop */
 	margin: 20,
 	 /*
 	animateOut: 'fadeOut',
