@@ -15,6 +15,7 @@ body{
     margin-left: auto!important;
     padding-top: auto !important;
     text-align: center !important;
+   
     
     
 
@@ -30,6 +31,8 @@ header{
     background-size: cover;
      height: 100vh; 
      z-index: -1;
+     background-blend-mode: darken;
+     background-color:rgb(119, 117, 117) !important;
 }
 .navbar-brand{
     /* font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif !important; */
@@ -56,15 +59,16 @@ header{
 
 }
 .heading {
- 
-    padding-left: 113px;
-    padding-top: 100px;
+   text-align: center;
+    /* padding-left: 113px; */
+    padding-top: 150px;
     color: white;
     
 }
 .heading h2{
-    font-size: 50px;
+    font-size: 70px;
     font-weight: 700;
+        /* line-height: 85px; */
     
 
 }
@@ -76,6 +80,7 @@ header{
     padding-top: 20px;
 }
 .btn{
+    margin-top: 1%;
   width: 15%;
   height: 6vh;
   background-color:#1787FC !important ;
@@ -386,7 +391,7 @@ span{
        
     }
     .heading p{
-        width: 70%;
+        width: auto;
     }
     .btn1{
         width: 35%;
