@@ -4,12 +4,12 @@ jQuery(document).ready(function ($) {
 	var owl = $("#owl-demo-2");
 	owl.owlCarousel({
 		autoplay: true,
-		autoplayTimeout: 1000,
+		autoplayTimeout: 2000,
 		autoplayHoverPause: true,
 		items: 3,
 		loop: true,
 		center: false,
-		rewind: false,
+		rewind: true,
 		mouseDrag: true,
 		touchDrag: true,
 		pullDrag: true,
@@ -21,7 +21,7 @@ jQuery(document).ready(function ($) {
 		autoWidth: false,
 		startPosition: 0,
 		rtl: false,
-		smartSpeed: 200,
+		smartSpeed: 800,
 		fluidSpeed: false,
 		dragEndSpeed: false,
 		responsive: {
@@ -72,3 +72,65 @@ jQuery(document).ready(function ($) {
 		owl.trigger("owl.prev");
 	});
 });
+jQuery("#carousel").owlCarousel({
+	autoplay: true,
+	rewind: true, /* use rewind if you don't want loop */
+	margin: 20,
+	 /*
+	animateOut: 'fadeOut',
+	animateIn: 'fadeIn',
+	*/
+	responsiveClass: true,
+	autoHeight: true,
+	autoplayTimeout: 2000,
+	smartSpeed: 800,
+	nav: true,
+	responsive: {
+	  0: {
+		items: 1
+	  },
+  
+	  600: {
+		items: 3
+	  },
+  
+	  1024: {
+		items: 4
+	  },
+  
+	  1366: {
+		items: 4
+	  }
+	}
+  });
+  jQuery("#carousel1").owlCarousel({
+	autoplay: true,
+	rewind: true, /* use rewind if you don't want loop */
+	margin: 20,
+	 /*
+	animateOut: 'fadeOut',
+	animateIn: 'fadeIn',
+	*/
+	responsiveClass: true,
+	autoHeight: true,
+	autoplayTimeout: 2000,
+	smartSpeed: 800,
+	nav: true,
+	responsive: {
+	  0: {
+		items: 1
+	  },
+  
+	  600: {
+		items: 3
+	  },
+  
+	  1024: {
+		items: 4
+	  },
+  
+	  1366: {
+		items: 4
+	  }
+	}
+  });

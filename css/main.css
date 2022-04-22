@@ -131,7 +131,7 @@ header{
 }
 caption{
   background-color: rgb(166, 167, 168) !important;
-  height: 50vh !important;
+  height: 60vh !important;
 }
 .caption p{
   padding-left: 20px;
@@ -157,7 +157,9 @@ caption{
     display: flex !important;
    margin-left: 10px;
 }
-
+.cap-p{
+    padding-top:10px;
+}
 /* .caption{
   background-color: rgb(184, 181, 181);
 } */
@@ -450,7 +452,7 @@ span{
     } 
     
   @media screen and (max-width:521px) {
-   
+      
     .img1{
       width: 
       80%;
@@ -622,3 +624,53 @@ span{
                 font-size:25px ;
                     }             
         }
+
+
+        .owl-nav button {
+            position: absolute;
+            top: 50%;
+            background-color: #000;
+            color: #fff;
+            margin: 10px;
+            transition: all 0.3s ease-in-out;
+          }
+          .owl-nav button.owl-prev {
+            left: 0;
+          }
+          .owl-nav button.owl-next {
+            right: 0;
+          }
+          
+          .owl-dots {
+            text-align: center;
+            padding-top: 30px;
+            margin: 10px;
+          }
+          .owl-dots button.owl-dot {
+            width: 15px;
+            height: 15px;
+            border-radius: 50%;
+            display: inline-block;
+            background: #ccc;
+            margin: 0 3px;
+          }
+          .owl-dots button.owl-dot.active {
+            background-color: #000;
+          }
+          .owl-dots button.owl-dot:focus {
+            outline: none;
+          }
+          .owl-nav button {
+              position: absolute;
+              top: 50%;
+              transform: translateY(-50%);
+              /* background: rgba(255, 255, 255, 0.38) !important; */
+          }
+          /* span {
+              font-size: 70px;    
+              position: relative;
+              top: -5px;
+          } */
+          .owl-nav button:focus {
+              outline: none;
+          }
