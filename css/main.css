@@ -94,6 +94,14 @@ header{
     /* font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif !important; */
   
 }
+.tren{
+    padding-top: 60px;
+    padding-left: 20px;
+    font-weight: bold;
+    text-transform: capitalize;
+    /* font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif !important; */
+  
+}
 
 .owl-carousel .owl-stage {
   display: flex;
@@ -357,7 +365,7 @@ span{
    font-size: 40px;
 }
 .heading2 p{
-     /* padding-top: 20px; */
+     padding-top: 20px;
      font-weight: lighter   ;
      font-size: 18px ;
 }
