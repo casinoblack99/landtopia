@@ -1,5 +1,6 @@
 
    @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap');
+   @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@700&family=Tomorrow:wght@700&display=swap');
 *{
     padding: 0px;
     margin: 0px;
@@ -34,14 +35,10 @@ header{
      background-blend-mode: darken;
      background-color:rgb(119, 117, 117) !important;
 }
-.navbar-brand{
-    /* font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif !important; */
-    color: white !important;
-    padding-top: auto !important;
-    padding-left: 20px;
-    font-size: 30px !important;
-    font-weight: 600;
- } 
+
+ .navbar .navbar-expand-lg{
+    width: 100% !important;
+}
 .nav-item{
     padding-left: 20px !important;
 }
@@ -68,6 +65,7 @@ header{
 .heading h2{
     font-size: 70px;
     font-weight: 700;
+    font-family: 'Tomorrow';
         /* line-height: 85px; */
     
 
@@ -149,6 +147,7 @@ caption{
 }
 .caption p{
   padding-left: 20px;
+
   /* font-weight: ; */
   /* padding-top: 5px; */
 
@@ -156,13 +155,15 @@ caption{
 .caption h4{
   font-weight: 500;
   padding-left: 20px;
+  font-size: 18px;
+  font-weight: bold;
 }
 .flex-text{
-  font-size: 15px;
+  font-size: 13px;
   font-weight: bold;
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif !important;}
 .img-cap{
-  width: 60% !important;
+  width: 50% !important;
   margin: 10px;
 
 
@@ -172,7 +173,8 @@ caption{
    margin-left: 10px;
 }
 .cap-p{
-    padding-top:10px;
+    padding-top:15px;
+    font-size: 13px;
 }
 /* .caption{
   background-color: rgb(184, 181, 181);
@@ -360,7 +362,7 @@ span{
 
 .heading2{
     text-align: center;
-    padding-top:5%;
+    padding-top:6%;
     color: white;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif !important;
     font-size: 40px;
@@ -383,7 +385,12 @@ span{
         width: 35%;
     }
  
- 
+    /* .navbar-brand .logo{
+      width: 33% !important;
+    } */
+    /* .navbar-toggler{
+        margin-right: 50% !important;
+    } */
    
     .heading h2{
        width: auto;
@@ -517,6 +524,7 @@ span{
        font-size: 18px;
        line-height: 0.3;
        background:#ffff ;
+
      }
   }
 
