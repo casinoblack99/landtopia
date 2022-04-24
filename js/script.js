@@ -4,7 +4,7 @@ jQuery(document).ready(function ($) {
 	var owl = $("#owl-demo-2");
 	owl.owlCarousel({
 		autoplay: true,
-		autoplayTimeout: 2000,
+		autoplayTimeout: 3000,
 		autoplayHoverPause: true,
 		items: 3,
 		loop: true,
@@ -82,7 +82,7 @@ jQuery("#carousel").owlCarousel({
 	*/
 	responsiveClass: true,
 	autoHeight: true,
-	autoplayTimeout: 2000,
+	autoplayTimeout: 3000,
 	smartSpeed: 800,
 	nav: true,
 	responsive: {
@@ -113,7 +113,7 @@ jQuery("#carousel").owlCarousel({
 	*/
 	responsiveClass: true,
 	autoHeight: true,
-	autoplayTimeout: 2000,
+	autoplayTimeout: 3000,
 	smartSpeed: 800,
 	nav: true,
 	responsive: {
