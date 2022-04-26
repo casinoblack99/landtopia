@@ -381,7 +381,7 @@ span{
 }
 .heading2 p{
         text-align: center;
-     padding-top: 10px;
+     padding-top: 5px;
      font-weight: lighter   ;
      font-size: 18px ;
      font-family: 'Poppins';
@@ -518,7 +518,7 @@ span{
     height:5vh !important;
   } 
   .heading2 p{
-      font-size: 13px;
+      font-size: 12px;
    /* width: 85%;
    padding-left:40px !important ; */
 
@@ -561,7 +561,7 @@ span{
     font-size: 20px !important;
 }
 .heading2 p {
-    font-size: 13px !important;
+    font-size: 11px !important;
     
 }
 .para h3{
@@ -605,7 +605,7 @@ span{
      font-size: 20px !important;
  }
  .heading2 p {
-     font-size: 13px !important;
+     font-size: 11px !important;
      
  }
  .para h3{
@@ -630,7 +630,7 @@ span{
    }
    @media screen and (max-width:340px) {
          .heading p{
-     font-size:11px ;
+     font-size:13px ;
          }
          .heading h2{
             font-size:25px ;
@@ -639,7 +639,7 @@ span{
                 display: none !important;
             }   */
             .heading2 p{
-                font-size: 13px;
+                font-size: 11px;
             }  
             .heading{
                 padding-right: 20px;
@@ -686,6 +686,7 @@ span{
             border-radius: 50%;
             display: inline-block;
             background: #ccc;
+            margin-left: 3px;
           
           }
           .owl-dots button.owl-dot.active {
