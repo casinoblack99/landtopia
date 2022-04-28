@@ -71,7 +71,7 @@ header{
 
 }
 .heading p{
-    font-size: 15px;
+    font-size: 18px;
     font-family: 'poppins';
     line-height:25px;
     font-weight: lighter;
@@ -283,6 +283,15 @@ caption{
     font-size: 43px;
     font-weight: bolder;
 }
+
+.none{
+     text-align: center;
+     display: none;
+}
+.none p{
+    font-family: 'poppins';
+    font-style: italic;
+}
 .newsteller{
     background-color: #1787FC;
     height:60vh;
@@ -407,6 +416,9 @@ span{
    .heading2 p{
     font-size: 13px;
     /* line-height:15px; */
+   }
+   .none p{
+       font-size: 13px;
    }
    
     .heading h2{

@@ -4,12 +4,12 @@ jQuery(document).ready(function ($) {
 	var owl = $("#owl-demo-2");
 	owl.owlCarousel({
 		autoplay: true,
-		autoplayTimeout: 3000,
+		autoplayTimeout: 2000,
 		autoplayHoverPause: true,
 		items: 3,
 		loop: true,
 		center: false,
-		rewind: false,
+		rewind: true,
 		mouseDrag: true,
 		touchDrag: true,
 		pullDrag: true,
@@ -74,7 +74,7 @@ jQuery(document).ready(function ($) {
 });
 jQuery("#carousel").owlCarousel({
 	autoplay: true,
-	rewind: false, /* use rewind if you don't want loop */
+	rewind: true, /* use rewind if you don't want loop */
 	margin: 20,
 	 /*
 	animateOut: 'fadeOut',
@@ -82,7 +82,7 @@ jQuery("#carousel").owlCarousel({
 	*/
 	responsiveClass: true,
 	autoHeight: true,
-	autoplayTimeout: 3000,
+	autoplayTimeout: 2000,
 	smartSpeed: 800,
 	nav: true,
 	responsive: {
@@ -105,7 +105,7 @@ jQuery("#carousel").owlCarousel({
   });
   jQuery("#carousel1").owlCarousel({
 	autoplay: true,
-	rewind: false, /* use rewind if you don't want loop */
+	rewind: true, /* use rewind if you don't want loop */
 	margin: 20,
 	 /*
 	animateOut: 'fadeOut',
@@ -113,7 +113,7 @@ jQuery("#carousel").owlCarousel({
 	*/
 	responsiveClass: true,
 	autoHeight: true,
-	autoplayTimeout: 3000,
+	autoplayTimeout: 2000,
 	smartSpeed: 800,
 	nav: true,
 	responsive: {
@@ -134,3 +134,68 @@ jQuery("#carousel").owlCarousel({
 	  }
 	}
   });
+
+  function myshow() {
+	var dots = document.getElementById("dots");
+	var moreText = document.getElementById("more");
+	var btnText = document.getElementById("btnText");
+  
+	if (dots.style.display === "none") {
+	  dots.style.display = "inline";
+	  btnText.innerHTML = "Read more"; 
+	  moreText.style.display = "none";
+	} else {
+	  dots.style.display = "none";
+	  btnText.innerHTML = "Read less"; 
+	  moreText.style.display = "inline";
+	}
+  }
+
+function myFunction() {
+	var dots = document.getElementById("dotts");
+	var moreText = document.getElementById("texts");
+	var Text = document.getElementById("mymore");
+  
+	if (dots.style.display === "none") {
+	  dots.style.display = "inline";
+	  Text.innerHTML = "Read less"; 
+	  moreText.style.display = "inline";
+	} else {
+	  dots.style.display = "none";
+	  Text.innerHTML = "Read more"; 
+	  moreText.style.display = "inline";
+	}
+  }
+  
+function myview() {
+	var dots = document.getElementById("icon");
+	var moreText = document.getElementById("textss");
+	var Text = document.getElementById("view");
+  
+	if (dots.style.display === "none") {
+	  dots.style.display = "inline";
+	  Text.innerHTML = "Read less"; 
+	  moreText.style.display = "none";
+	} else {
+	  dots.style.display = "none";
+	  Text.innerHTML = "Read more"; 
+	  moreText.style.display = "inline";
+	}
+  }
+
+
+  function mystatus() {
+	var dots = document.getElementById("icons");
+	var moreText = document.getElementById("texttss");
+	var Text = document.getElementById("status");
+  
+	if (dots.style.display === "none") {
+	  dots.style.display = "inline";
+	  Text.innerHTML = "Read less"; 
+	  moreText.style.display = "none";
+	} else {
+	  dots.style.display = "none";
+	  Text.innerHTML = "Read more"; 
+	  moreText.style.display = "inline";
+	}
+  }
